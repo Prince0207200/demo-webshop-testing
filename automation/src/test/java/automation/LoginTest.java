@@ -102,6 +102,7 @@ public class LoginTest extends BaseTest {
          assert errorEle.contains("Password is required");
       }
     
+    
 			    @Test
 			    public void loginWith_BlankEmail_OnlyPass_Credentials() {
 			    	 driver.get("https://demowebshop.tricentis.com");
