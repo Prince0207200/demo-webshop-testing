@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="10" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-24T09:01:48 IST" name="CrossBrowserSuite" finished-at="2025-07-24T09:02:54 IST" duration-ms="66285">
+    <groups>
+    </groups>
+    <test started-at="2025-07-24T09:01:48 IST" name="EdgeTest" finished-at="2025-07-24T09:02:53 IST" duration-ms="65197">
+      <class name="automation.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:48 IST" name="setup" finished-at="2025-07-24T09:01:51 IST" duration-ms="3619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_BlankCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:51 IST" name="loginWith_BlankCredentials" finished-at="2025-07-24T09:01:57 IST" duration-ms="5276" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at automation.LoginTest.loginWith_BlankCredentials(LoginTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_BlankCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:57 IST" name="tearDown" finished-at="2025-07-24T09:01:57 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:57 IST" name="setup" finished-at="2025-07-24T09:01:59 IST" duration-ms="1792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_BlankEmail_OnlyPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:59 IST" name="loginWith_BlankEmail_OnlyPass_Credentials" finished-at="2025-07-24T09:02:04 IST" duration-ms="5290" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at automation.LoginTest.loginWith_BlankEmail_OnlyPass_Credentials(LoginTest.java:118)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_BlankEmail_OnlyPass_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:04 IST" name="tearDown" finished-at="2025-07-24T09:02:04 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:04 IST" name="setup" finished-at="2025-07-24T09:02:06 IST" duration-ms="1820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_OnlyEmail_BlankPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:06 IST" name="loginWith_OnlyEmail_BlankPass_Credentials" finished-at="2025-07-24T09:02:12 IST" duration-ms="5935" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at automation.LoginTest.loginWith_OnlyEmail_BlankPass_Credentials(LoginTest.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_OnlyEmail_BlankPass_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:12 IST" name="tearDown" finished-at="2025-07-24T09:02:12 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:12 IST" name="setup" finished-at="2025-07-24T09:02:14 IST" duration-ms="1991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_SQL_InjectionInEmail_ValidPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:14 IST" name="loginWith_SQL_InjectionInEmail_ValidPass_Credentials" finished-at="2025-07-24T09:02:19 IST" duration-ms="5032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_SQL_InjectionInEmail_ValidPass_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:19 IST" name="tearDown" finished-at="2025-07-24T09:02:20 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:20 IST" name="setup" finished-at="2025-07-24T09:02:22 IST" duration-ms="2024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_UnregisteredEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:22 IST" name="loginWith_UnregisteredEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:27 IST" duration-ms="5198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_UnregisteredEmail_ValidPassCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:27 IST" name="tearDown" finished-at="2025-07-24T09:02:27 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:27 IST" name="setup" finished-at="2025-07-24T09:02:29 IST" duration-ms="2133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_ValidCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:29 IST" name="loginWith_ValidCredentials" finished-at="2025-07-24T09:02:36 IST" duration-ms="6365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_ValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:36 IST" name="tearDown" finished-at="2025-07-24T09:02:36 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:36 IST" name="setup" finished-at="2025-07-24T09:02:38 IST" duration-ms="2157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_ValidEmail_WrongPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:38 IST" name="loginWith_ValidEmail_WrongPassCredentials" finished-at="2025-07-24T09:02:44 IST" duration-ms="5518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_ValidEmail_WrongPassCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:44 IST" name="tearDown" finished-at="2025-07-24T09:02:44 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:44 IST" name="setup" finished-at="2025-07-24T09:02:46 IST" duration-ms="1944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_WrongEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:46 IST" name="loginWith_WrongEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:52 IST" duration-ms="6540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_WrongEmail_ValidPassCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:52 IST" name="tearDown" finished-at="2025-07-24T09:02:53 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.LoginTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-07-24T09:01:48 IST" name="ChromeTest" finished-at="2025-07-24T09:02:54 IST" duration-ms="66285">
+      <class name="automation.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:01:48 IST" name="setup" finished-at="2025-07-24T09:01:57 IST" duration-ms="9104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_BlankCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:01:57 IST" name="loginWith_BlankCredentials" finished-at="2025-07-24T09:02:02 IST" duration-ms="4826" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at automation.LoginTest.loginWith_BlankCredentials(LoginTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_BlankCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:02 IST" name="tearDown" finished-at="2025-07-24T09:02:02 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:02 IST" name="setup" finished-at="2025-07-24T09:02:04 IST" duration-ms="2079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_BlankEmail_OnlyPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:04 IST" name="loginWith_BlankEmail_OnlyPass_Credentials" finished-at="2025-07-24T09:02:09 IST" duration-ms="5179" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at automation.LoginTest.loginWith_BlankEmail_OnlyPass_Credentials(LoginTest.java:118)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_BlankEmail_OnlyPass_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:09 IST" name="tearDown" finished-at="2025-07-24T09:02:09 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:09 IST" name="setup" finished-at="2025-07-24T09:02:11 IST" duration-ms="1846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_OnlyEmail_BlankPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:11 IST" name="loginWith_OnlyEmail_BlankPass_Credentials" finished-at="2025-07-24T09:02:17 IST" duration-ms="5437" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at automation.LoginTest.loginWith_OnlyEmail_BlankPass_Credentials(LoginTest.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_OnlyEmail_BlankPass_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:17 IST" name="tearDown" finished-at="2025-07-24T09:02:17 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:17 IST" name="setup" finished-at="2025-07-24T09:02:19 IST" duration-ms="1757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_SQL_InjectionInEmail_ValidPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:19 IST" name="loginWith_SQL_InjectionInEmail_ValidPass_Credentials" finished-at="2025-07-24T09:02:23 IST" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_SQL_InjectionInEmail_ValidPass_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:23 IST" name="tearDown" finished-at="2025-07-24T09:02:23 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:23 IST" name="setup" finished-at="2025-07-24T09:02:25 IST" duration-ms="1791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_UnregisteredEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:25 IST" name="loginWith_UnregisteredEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:31 IST" duration-ms="5883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_UnregisteredEmail_ValidPassCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:31 IST" name="tearDown" finished-at="2025-07-24T09:02:31 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:31 IST" name="setup" finished-at="2025-07-24T09:02:33 IST" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_ValidCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:33 IST" name="loginWith_ValidCredentials" finished-at="2025-07-24T09:02:39 IST" duration-ms="5915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_ValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:39 IST" name="tearDown" finished-at="2025-07-24T09:02:39 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:39 IST" name="setup" finished-at="2025-07-24T09:02:42 IST" duration-ms="2284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_ValidEmail_WrongPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:42 IST" name="loginWith_ValidEmail_WrongPassCredentials" finished-at="2025-07-24T09:02:48 IST" duration-ms="5977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_ValidEmail_WrongPassCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:48 IST" name="tearDown" finished-at="2025-07-24T09:02:48 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:48 IST" name="setup" finished-at="2025-07-24T09:02:49 IST" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWith_WrongEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:49 IST" name="loginWith_WrongEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:54 IST" duration-ms="4143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWith_WrongEmail_ValidPassCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:54 IST" name="tearDown" finished-at="2025-07-24T09:02:54 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>
