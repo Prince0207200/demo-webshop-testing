@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="16" passed="10" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-24T09:01:48 IST" name="CrossBrowserSuite" finished-at="2025-07-24T09:02:54 IST" duration-ms="66285">
+  <suite started-at="2025-08-04T14:36:41 IST" name="CrossBrowserSuite" finished-at="2025-08-04T14:37:57 IST" duration-ms="75457">
     <groups>
     </groups>
-    <test started-at="2025-07-24T09:01:48 IST" name="EdgeTest" finished-at="2025-07-24T09:02:53 IST" duration-ms="65197">
+    <test started-at="2025-08-04T14:36:41 IST" name="EdgeTest" finished-at="2025-08-04T14:37:54 IST" duration-ms="72488">
       <class name="automation.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:48 IST" name="setup" finished-at="2025-07-24T09:01:51 IST" duration-ms="3619" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:36:41 IST" name="setup" finished-at="2025-08-04T14:36:46 IST" duration-ms="4503" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_BlankCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:51 IST" name="loginWith_BlankCredentials" finished-at="2025-07-24T09:01:57 IST" duration-ms="5276" status="FAIL">
+        <test-method signature="loginWith_BlankCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:36:46 IST" name="loginWith_BlankCredentials" finished-at="2025-08-04T14:36:53 IST" duration-ms="6944" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -49,11 +49,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_BlankCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:57 IST" name="tearDown" finished-at="2025-07-24T09:01:57 IST" duration-ms="546" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:36:53 IST" name="tearDown" finished-at="2025-08-04T14:36:53 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:57 IST" name="setup" finished-at="2025-07-24T09:01:59 IST" duration-ms="1792" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:36:53 IST" name="setup" finished-at="2025-08-04T14:36:57 IST" duration-ms="3588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_BlankEmail_OnlyPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:01:59 IST" name="loginWith_BlankEmail_OnlyPass_Credentials" finished-at="2025-07-24T09:02:04 IST" duration-ms="5290" status="FAIL">
+        <test-method signature="loginWith_BlankEmail_OnlyPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:36:57 IST" name="loginWith_BlankEmail_OnlyPass_Credentials" finished-at="2025-08-04T14:37:02 IST" duration-ms="5301" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -95,11 +95,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_BlankEmail_OnlyPass_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:04 IST" name="tearDown" finished-at="2025-07-24T09:02:04 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:02 IST" name="tearDown" finished-at="2025-08-04T14:37:03 IST" duration-ms="1218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:04 IST" name="setup" finished-at="2025-07-24T09:02:06 IST" duration-ms="1820" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:03 IST" name="setup" finished-at="2025-08-04T14:37:05 IST" duration-ms="1992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_OnlyEmail_BlankPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:06 IST" name="loginWith_OnlyEmail_BlankPass_Credentials" finished-at="2025-07-24T09:02:12 IST" duration-ms="5935" status="FAIL">
+        <test-method signature="loginWith_OnlyEmail_BlankPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:05 IST" name="loginWith_OnlyEmail_BlankPass_Credentials" finished-at="2025-08-04T14:37:11 IST" duration-ms="5885" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -141,11 +141,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_OnlyEmail_BlankPass_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:12 IST" name="tearDown" finished-at="2025-07-24T09:02:12 IST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:11 IST" name="tearDown" finished-at="2025-08-04T14:37:11 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:12 IST" name="setup" finished-at="2025-07-24T09:02:14 IST" duration-ms="1991" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:11 IST" name="setup" finished-at="2025-08-04T14:37:13 IST" duration-ms="1925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,15 +156,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_SQL_InjectionInEmail_ValidPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:14 IST" name="loginWith_SQL_InjectionInEmail_ValidPass_Credentials" finished-at="2025-07-24T09:02:19 IST" duration-ms="5032" status="PASS">
+        <test-method signature="loginWith_SQL_InjectionInEmail_ValidPass_Credentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:13 IST" name="loginWith_SQL_InjectionInEmail_ValidPass_Credentials" finished-at="2025-08-04T14:37:19 IST" duration-ms="6051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_SQL_InjectionInEmail_ValidPass_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:19 IST" name="tearDown" finished-at="2025-07-24T09:02:20 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:19 IST" name="tearDown" finished-at="2025-08-04T14:37:19 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:20 IST" name="setup" finished-at="2025-07-24T09:02:22 IST" duration-ms="2024" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:19 IST" name="setup" finished-at="2025-08-04T14:37:21 IST" duration-ms="1960" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,15 +175,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_UnregisteredEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:22 IST" name="loginWith_UnregisteredEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:27 IST" duration-ms="5198" status="PASS">
+        <test-method signature="loginWith_UnregisteredEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:21 IST" name="loginWith_UnregisteredEmail_ValidPassCredentials" finished-at="2025-08-04T14:37:27 IST" duration-ms="5631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_UnregisteredEmail_ValidPassCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:27 IST" name="tearDown" finished-at="2025-07-24T09:02:27 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:27 IST" name="tearDown" finished-at="2025-08-04T14:37:27 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:27 IST" name="setup" finished-at="2025-07-24T09:02:29 IST" duration-ms="2133" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:27 IST" name="setup" finished-at="2025-08-04T14:37:29 IST" duration-ms="1940" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,15 +194,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_ValidCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:29 IST" name="loginWith_ValidCredentials" finished-at="2025-07-24T09:02:36 IST" duration-ms="6365" status="PASS">
+        <test-method signature="loginWith_ValidCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:29 IST" name="loginWith_ValidCredentials" finished-at="2025-08-04T14:37:35 IST" duration-ms="5742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_ValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:36 IST" name="tearDown" finished-at="2025-07-24T09:02:36 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:35 IST" name="tearDown" finished-at="2025-08-04T14:37:35 IST" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:36 IST" name="setup" finished-at="2025-07-24T09:02:38 IST" duration-ms="2157" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:35 IST" name="setup" finished-at="2025-08-04T14:37:37 IST" duration-ms="1786" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,15 +213,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_ValidEmail_WrongPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:38 IST" name="loginWith_ValidEmail_WrongPassCredentials" finished-at="2025-07-24T09:02:44 IST" duration-ms="5518" status="PASS">
+        <test-method signature="loginWith_ValidEmail_WrongPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:37 IST" name="loginWith_ValidEmail_WrongPassCredentials" finished-at="2025-08-04T14:37:43 IST" duration-ms="6067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_ValidEmail_WrongPassCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:44 IST" name="tearDown" finished-at="2025-07-24T09:02:44 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:43 IST" name="tearDown" finished-at="2025-08-04T14:37:43 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:44 IST" name="setup" finished-at="2025-07-24T09:02:46 IST" duration-ms="1944" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:43 IST" name="setup" finished-at="2025-08-04T14:37:45 IST" duration-ms="1928" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,19 +232,19 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_WrongEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:46 IST" name="loginWith_WrongEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:52 IST" duration-ms="6540" status="PASS">
+        <test-method signature="loginWith_WrongEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:45 IST" name="loginWith_WrongEmail_ValidPassCredentials" finished-at="2025-08-04T14:37:53 IST" duration-ms="8029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_WrongEmail_ValidPassCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-07-24T09:02:52 IST" name="tearDown" finished-at="2025-07-24T09:02:53 IST" duration-ms="424" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@7c6908d7]" started-at="2025-08-04T14:37:53 IST" name="tearDown" finished-at="2025-08-04T14:37:54 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- automation.LoginTest -->
     </test> <!-- EdgeTest -->
-    <test started-at="2025-07-24T09:01:48 IST" name="ChromeTest" finished-at="2025-07-24T09:02:54 IST" duration-ms="66285">
+    <test started-at="2025-08-04T14:36:41 IST" name="ChromeTest" finished-at="2025-08-04T14:37:57 IST" duration-ms="75457">
       <class name="automation.LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:01:48 IST" name="setup" finished-at="2025-07-24T09:01:57 IST" duration-ms="9104" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:36:41 IST" name="setup" finished-at="2025-08-04T14:36:56 IST" duration-ms="14790" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -255,7 +255,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_BlankCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:01:57 IST" name="loginWith_BlankCredentials" finished-at="2025-07-24T09:02:02 IST" duration-ms="4826" status="FAIL">
+        <test-method signature="loginWith_BlankCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:36:56 IST" name="loginWith_BlankCredentials" finished-at="2025-08-04T14:37:01 IST" duration-ms="5066" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -286,11 +286,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_BlankCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:02 IST" name="tearDown" finished-at="2025-07-24T09:02:02 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:01 IST" name="tearDown" finished-at="2025-08-04T14:37:01 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:02 IST" name="setup" finished-at="2025-07-24T09:02:04 IST" duration-ms="2079" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:01 IST" name="setup" finished-at="2025-08-04T14:37:03 IST" duration-ms="1903" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_BlankEmail_OnlyPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:04 IST" name="loginWith_BlankEmail_OnlyPass_Credentials" finished-at="2025-07-24T09:02:09 IST" duration-ms="5179" status="FAIL">
+        <test-method signature="loginWith_BlankEmail_OnlyPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:03 IST" name="loginWith_BlankEmail_OnlyPass_Credentials" finished-at="2025-08-04T14:37:08 IST" duration-ms="4920" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -332,11 +332,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_BlankEmail_OnlyPass_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:09 IST" name="tearDown" finished-at="2025-07-24T09:02:09 IST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:08 IST" name="tearDown" finished-at="2025-08-04T14:37:09 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:09 IST" name="setup" finished-at="2025-07-24T09:02:11 IST" duration-ms="1846" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:09 IST" name="setup" finished-at="2025-08-04T14:37:10 IST" duration-ms="1668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_OnlyEmail_BlankPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:11 IST" name="loginWith_OnlyEmail_BlankPass_Credentials" finished-at="2025-07-24T09:02:17 IST" duration-ms="5437" status="FAIL">
+        <test-method signature="loginWith_OnlyEmail_BlankPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:10 IST" name="loginWith_OnlyEmail_BlankPass_Credentials" finished-at="2025-08-04T14:37:16 IST" duration-ms="5961" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -378,11 +378,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_OnlyEmail_BlankPass_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:17 IST" name="tearDown" finished-at="2025-07-24T09:02:17 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:16 IST" name="tearDown" finished-at="2025-08-04T14:37:16 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:17 IST" name="setup" finished-at="2025-07-24T09:02:19 IST" duration-ms="1757" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:16 IST" name="setup" finished-at="2025-08-04T14:37:18 IST" duration-ms="1761" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -393,15 +393,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_SQL_InjectionInEmail_ValidPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:19 IST" name="loginWith_SQL_InjectionInEmail_ValidPass_Credentials" finished-at="2025-07-24T09:02:23 IST" duration-ms="4573" status="PASS">
+        <test-method signature="loginWith_SQL_InjectionInEmail_ValidPass_Credentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:18 IST" name="loginWith_SQL_InjectionInEmail_ValidPass_Credentials" finished-at="2025-08-04T14:37:24 IST" duration-ms="5442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_SQL_InjectionInEmail_ValidPass_Credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:23 IST" name="tearDown" finished-at="2025-07-24T09:02:23 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:24 IST" name="tearDown" finished-at="2025-08-04T14:37:24 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:23 IST" name="setup" finished-at="2025-07-24T09:02:25 IST" duration-ms="1791" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:24 IST" name="setup" finished-at="2025-08-04T14:37:26 IST" duration-ms="1623" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -412,15 +412,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_UnregisteredEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:25 IST" name="loginWith_UnregisteredEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:31 IST" duration-ms="5883" status="PASS">
+        <test-method signature="loginWith_UnregisteredEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:26 IST" name="loginWith_UnregisteredEmail_ValidPassCredentials" finished-at="2025-08-04T14:37:31 IST" duration-ms="5431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_UnregisteredEmail_ValidPassCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:31 IST" name="tearDown" finished-at="2025-07-24T09:02:31 IST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:31 IST" name="tearDown" finished-at="2025-08-04T14:37:31 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:31 IST" name="setup" finished-at="2025-07-24T09:02:33 IST" duration-ms="1742" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:31 IST" name="setup" finished-at="2025-08-04T14:37:33 IST" duration-ms="1674" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,15 +431,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_ValidCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:33 IST" name="loginWith_ValidCredentials" finished-at="2025-07-24T09:02:39 IST" duration-ms="5915" status="PASS">
+        <test-method signature="loginWith_ValidCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:33 IST" name="loginWith_ValidCredentials" finished-at="2025-08-04T14:37:39 IST" duration-ms="6467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_ValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:39 IST" name="tearDown" finished-at="2025-07-24T09:02:39 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:39 IST" name="tearDown" finished-at="2025-08-04T14:37:40 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:39 IST" name="setup" finished-at="2025-07-24T09:02:42 IST" duration-ms="2284" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:40 IST" name="setup" finished-at="2025-08-04T14:37:41 IST" duration-ms="1644" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -450,15 +450,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_ValidEmail_WrongPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:42 IST" name="loginWith_ValidEmail_WrongPassCredentials" finished-at="2025-07-24T09:02:48 IST" duration-ms="5977" status="PASS">
+        <test-method signature="loginWith_ValidEmail_WrongPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:41 IST" name="loginWith_ValidEmail_WrongPassCredentials" finished-at="2025-08-04T14:37:50 IST" duration-ms="9142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_ValidEmail_WrongPassCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:48 IST" name="tearDown" finished-at="2025-07-24T09:02:48 IST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:50 IST" name="tearDown" finished-at="2025-08-04T14:37:51 IST" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:48 IST" name="setup" finished-at="2025-07-24T09:02:49 IST" duration-ms="1571" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:51 IST" name="setup" finished-at="2025-08-04T14:37:52 IST" duration-ms="1478" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,11 +469,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginWith_WrongEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:49 IST" name="loginWith_WrongEmail_ValidPassCredentials" finished-at="2025-07-24T09:02:54 IST" duration-ms="4143" status="PASS">
+        <test-method signature="loginWith_WrongEmail_ValidPassCredentials()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:52 IST" name="loginWith_WrongEmail_ValidPassCredentials" finished-at="2025-08-04T14:37:56 IST" duration-ms="4029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWith_WrongEmail_ValidPassCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-07-24T09:02:54 IST" name="tearDown" finished-at="2025-07-24T09:02:54 IST" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.LoginTest@6f1de4c7]" started-at="2025-08-04T14:37:56 IST" name="tearDown" finished-at="2025-08-04T14:37:57 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
